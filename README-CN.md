@@ -33,4 +33,6 @@ docker run --gpus all -p 8888:8880 ghcr.io/remsky/kokoro-fastapi-gpu:v0.2.0  #NV
 
 另外，我还添加了OpenAI Compatible（OpenAI接口兼容）服务，意味着你自行在本地安装其他OpenAI接口兼容的TTS模型（比如[openai-edge-tts](https://github.com/travisvn/openai-edge-tts)）进行语音生成。
 
+> 注意，当你使用OpenAI Compatible时，有时会出现明明选择的是OpenAI Compatible，生成的语音却是Kokoro的声音这种情况。估计是缓存问题，给它一个新的单词生成就能刷新缓存。
+
 ![screenshot](pictures/openai.png)

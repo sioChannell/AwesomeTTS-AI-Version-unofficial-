@@ -23,6 +23,8 @@ docker run -p 8888:8880 ghcr.io/remsky/kokoro-fastapi-cpu:v0.2.0 # CPU, or:
 docker run --gpus all -p 8888:8880 ghcr.io/remsky/kokoro-fastapi-gpu:v0.2.0  #NVIDIA GPU
 ```
 
+> Here is a detailed [tutorial](ModelDownloadForEveryone.md) for everyone
+
 # Cautionary Notes
 
 + At present, Chinese and Japanese voice only supports generating English with Chinese and Japanese accents.
@@ -36,5 +38,7 @@ docker run --gpus all -p 8888:8880 ghcr.io/remsky/kokoro-fastapi-gpu:v0.2.0  #NV
 # OpenAI Compatible
 
 Additionally, I've added OpenAI Compatible (OpenAI Interface Compatible) service, which means you can install other OpenAI compatible TTS models locally (such as [openai-edge-tts](https://github.com/travisvn/openai-edge-tts)) for tts service.
+
+> Be mindful that when using OpenAI Compatible, there may be instances where you've selected OpenAI Compatible, but the generated voice turns out to be Kokoro's. This is likely due to a caching issue; providing it with a new word to generate should refresh the cache.
 
 ![screenshot](pictures/openai.png)
