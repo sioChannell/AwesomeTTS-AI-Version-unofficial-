@@ -12,7 +12,7 @@ If you're not familiar with Docker, no worries—there's a detailed tutorial bel
 
 ![](pictures/setting2.png)
 
-3. Press Win+R on the keyboard, type cmd, paste one of the following two lines into it, and press Enter to download the model. The first line is for downloading a model that runs only on the CPU, and the second line is for downloading a model that runs on the GPU, which will be much faster. It is recommended to use the second line to download first, and only use the first line if the model doesn't run.
+3. Press Win+R on the keyboard, type "cmd" and press Enter, paste one of the following two lines into it, and press Enter to download the model. The first line is for downloading a model that runs only on the CPU, and the second line is for downloading a model that runs on the GPU, which will be much faster. It is recommended to use the second line to download first, and only use the first line if the model doesn't run.
 
 ```
 docker run -p 8888:8880 ghcr.io/remsky/kokoro-fastapi-cpu:v0.2.0 # CPU, or:
