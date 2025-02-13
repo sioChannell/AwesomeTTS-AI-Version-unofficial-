@@ -35,6 +35,6 @@ docker run --gpus all -p 8888:8880 ghcr.io/remsky/kokoro-fastapi-gpu:v0.2.0  #NV
 
 # OpenAI Compatible
 
-Additionally, I've added OpenAI Compatible (OpenAI Interface Compatible) service, which means you can install other OpenAI compatible TTS models locally (such as [openai-edge-tts](https://github.com/travisvn/openai-edge-tts)) for voice generation.
+Additionally, I've added OpenAI Compatible (OpenAI Interface Compatible) service, which means you can install other OpenAI compatible TTS models locally (such as [openai-edge-tts](https://github.com/travisvn/openai-edge-tts)) for tts service.
 
 ![screenshot](pictures/openai.png)
