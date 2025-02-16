@@ -36,3 +36,8 @@ docker run --gpus all -p 8888:8880 ghcr.io/remsky/kokoro-fastapi-gpu:v0.2.0  #NV
 > 注意，当你使用OpenAI Compatible时，有时会出现明明选择的是OpenAI Compatible，生成的语音却是Kokoro的声音这种情况。估计是缓存问题，给它一个新的单词生成就能刷新缓存。
 
 ![screenshot](pictures/openai.png)
+
+# License
+
+AwesomeTTS-AI-Version-unofficial-: GPL-3.0 license
+[anki-awesome-tts](https://github.com/Vocab-Apps/anki-awesome-tts?tab=readme-ov-file): GPL-3.0 license

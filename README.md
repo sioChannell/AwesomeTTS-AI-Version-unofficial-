@@ -42,3 +42,8 @@ Additionally, I've added OpenAI Compatible (OpenAI Interface Compatible) service
 > Be mindful that when using OpenAI Compatible, there may be instances where you've selected OpenAI Compatible, but the generated voice turns out to be Kokoro's. This is likely due to a caching issue; providing it with a new word to generate should refresh the cache.
 
 ![screenshot](pictures/openai.png)
+
+# License
+
+AwesomeTTS-AI-Version-unofficial-: GPL-3.0 license
+[anki-awesome-tts](https://github.com/Vocab-Apps/anki-awesome-tts?tab=readme-ov-file): GPL-3.0 license
